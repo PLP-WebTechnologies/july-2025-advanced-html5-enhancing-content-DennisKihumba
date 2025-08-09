@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enhanced Form Assignment</title>
+</head>
+<body>
+
+  <header>
+    <h1>Enhanced Form Submission</h1>
+    <p>This page demonstrates structured content and a complete HTML5 form.</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2> My Skills</h2>
+      <ul>
+        <li>Web Development (HTML, CSS, JavaScript)</li>
+        <li>Python Programming</li>
+        <li>Chess Mentorship & Curriculum Design</li>
+        <li>Video Editing (CapCut, Canva, Filmora)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2> Sample Table</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Tool</th>
+            <th>Purpose</th>
+            <th>Proficiency</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>Structure web pages</td>
+            <td>Advanced</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Programming & teaching</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td>CapCut</td>
+            <td>Video editing</td>
+            <td>Advanced</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2> Multimedia</h2>
+      <img src="image.jpg.jpg" alt="student learning"  width="300" height="200"/>
+      <video src="./video.mkv.mp4" width="480" height="360" controls autoplay></video>
+      <audio src="./audio.m4a" controls autoplay muted></audio>
+
+      
+    </section>
+
+    <section>
+      <h2>Contact Form</h2>
+      <form action="#" method="post" autocomplete="on">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Your full name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="99" required />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required />
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="">--Select--</option>
+          <option value="Kenya">Kenya</option>
+          <option value="Uganda">Uganda</option>
+          <option value="Tanzania">Tanzania</option>
+        </select>
+
+        <fieldset>
+          <legend>Gender:</legend>
+          <label><input type="radio" name="gender" value="male" required /> Male</label>
+          <label><input type="radio" name="gender" value="female" /> Female</label>
+          <label><input type="radio" name="gender" value="other" /> Other</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Interests:</legend>
+          <label><input type="checkbox" name="interests" value="coding" /> Coding</label>
+          <label><input type="checkbox" name="interests" value="chess" /> Chess</label>
+          <label><input type="checkbox" name="interests" value="video" /> Video Editing</label>
+        </fieldset>
+
+        <label for="bio">Short Bio:</label>
+        <textarea id="bio" name="bio" rows="4" placeholder="Tell us about yourself..." required></textarea>
+
+        <label for="readonly">Referral Code:</label>
+        <input type="text" id="readonly" name="referral" value="DENNIS2025" readonly />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dennis. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
